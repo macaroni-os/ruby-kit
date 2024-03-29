@@ -13,7 +13,7 @@ inherit ruby-fakegem
 
 DESCRIPTION="Debugging functionality for Ruby"
 HOMEPAGE="https://github.com/ruby/debug"
-SRC_URI="https://github.com/ruby/debug/tarball/9de0ff46faeea73aed27bb090ee052db8fb74c14 -> debug-1.9.1-9de0ff4.tar.gz"
+SRC_URI="https://github.com/ruby/debug/tarball/0b77e8294b5b220b3b2a089bf09f94808654899a -> debug-1.9.2-0b77e82.tar.gz"
 
 KEYWORDS="*"
 LICENSE="|| ( Ruby BSD-2 )"
