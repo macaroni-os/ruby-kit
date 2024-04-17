@@ -11,7 +11,7 @@ inherit ruby-fakegem
 
 DESCRIPTION="The compatible library with the API of Ruby's stdlib 'readline', GNU Readline and Editline by pure Ruby implementation."
 HOMEPAGE="https://github.com/ruby/reline"
-SRC_URI="https://github.com/ruby/reline/tarball/d348df90d266e44f321810bcf272841fb9669f72 -> reline-0.5.1-d348df9.tar.gz"
+SRC_URI="https://github.com/ruby/reline/tarball/17d12cc511f3ae677923d0c45d6a256ac956982e -> reline-0.5.2-17d12cc.tar.gz"
 
 LICENSE="BSD-3"
 KEYWORDS="*"
