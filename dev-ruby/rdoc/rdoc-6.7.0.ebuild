@@ -14,7 +14,7 @@ inherit ruby-fakegem
 
 DESCRIPTION="RDoc produces HTML and online documentation for Ruby projects."
 HOMEPAGE="https://github.com/ruby/rdoc"
-SRC_URI="https://github.com/ruby/rdoc/tarball/ffbf8ae0896f589f41282e3b166fc5d059f0e6b9 -> rdoc-6.6.3.1-ffbf8ae.tar.gz"
+SRC_URI="https://github.com/ruby/rdoc/tarball/a667e616e16a577d0ac70d4f1c93de6285966030 -> rdoc-6.7.0-a667e61.tar.gz"
 
 KEYWORDS="*"
 LICENSE="Ruby MIT"
