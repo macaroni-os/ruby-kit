@@ -3,24 +3,26 @@
 EAPI=7
 
 USE_RUBY="ruby27 ruby30 ruby31 ruby32"
-RUBY_FAKEGEM_BINWRAP=""
 RUBY_FAKEGEM_EXTRADOC="README.md"
+RUBY_FAKEGEM_BINWRAP=""
 RUBY_FAKEGEM_GEMSPEC="${PN}.gemspec"
 
 inherit ruby-fakegem
 
-DESCRIPTION="This class implements the File Transfer Protocol."
-HOMEPAGE="https://github.com/ruby/net-ftp"
-SRC_URI="https://github.com/ruby/net-ftp/tarball/482e37eec182251f938e1c52074f2c3f274b6458 -> net-ftp-0.3.4-482e37e.tar.gz"
+DESCRIPTION="Ruby client api for Internet Message Access Protocol"
+HOMEPAGE="https://github.com/ruby/net-imap"
+SRC_URI="https://github.com/ruby/net-imap/tarball/6c59d0380971d689f4f1455a94a48a5c6c447e20 -> net-imap-0.4.12-6c59d03.tar.gz"
 
 KEYWORDS="*"
-LICENSE="|| ( Ruby-BSD BSD-2 )"
+LICENSE="|| ( Ruby BSD-2 )"
 SLOT="0"
 IUSE=""
 
+ruby_add_bdepend "test? ( dev-ruby/test-unit )"
+
 post_src_unpack() {
 	if [ ! -d "${S}/all/${P}" ] ; then
-		mv "${WORKDIR}"/all/ruby-net-ftp-* "${S}"/all/"${P}" || die
+		mv "${WORKDIR}"/all/ruby-net-imap-* "${S}"/all/"${P}" || die
 	fi
 }
 
