@@ -11,7 +11,7 @@ inherit ruby-fakegem
 
 DESCRIPTION="This class implements the File Transfer Protocol."
 HOMEPAGE="https://github.com/ruby/net-ftp"
-SRC_URI="https://github.com/ruby/net-ftp/tarball/deda220a422cf1ff560c60017312984fe34ea354 -> net-ftp-0.3.6-deda220.tar.gz"
+SRC_URI="https://github.com/ruby/net-ftp/tarball/be25c98049759fe67a169e3d632588aea206f5e9 -> net-ftp-0.3.7-be25c98.tar.gz"
 
 KEYWORDS="*"
 LICENSE="|| ( Ruby-BSD BSD-2 )"
