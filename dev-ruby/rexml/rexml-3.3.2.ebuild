@@ -11,7 +11,7 @@ inherit ruby-fakegem
 
 DESCRIPTION="REXML is an XML toolkit for Ruby"
 HOMEPAGE="https://github.com/ruby/rexml"
-SRC_URI="https://github.com/ruby/rexml/tarball/20017eea807e8fa386aa5c79ae779004d8b366dd -> rexml-3.3.1-20017ee.tar.gz"
+SRC_URI="https://github.com/ruby/rexml/tarball/2b285ac0804f2918de642f7ed4646dc6d645a7fc -> rexml-3.3.2-2b285ac.tar.gz"
 
 KEYWORDS="*"
 LICENSE="BSD-2"
