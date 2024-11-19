@@ -5,7 +5,7 @@ EAPI=7
 USE_RUBY="ruby27 ruby30 ruby31 ruby32"
 RUBY_FAKEGEM_RECIPE_DOC=""
 RUBY_FAKEGEM_DOCDIR="doc"
-RUBY_FAKEGEM_EXTRADOC="History.rdoc README.rdoc RI.rdoc TODO.rdoc"
+RUBY_FAKEGEM_EXTRADOC="History.rdoc README.rdoc RI.md TODO.rdoc"
 RUBY_FAKEGEM_BINWRAP=""
 RUBY_FAKEGEM_BINDIR="exe"
 RUBY_FAKEGEM_GEMSPEC="${PN}.gemspec"
@@ -14,7 +14,7 @@ inherit ruby-fakegem
 
 DESCRIPTION="RDoc produces HTML and online documentation for Ruby projects."
 HOMEPAGE="https://github.com/ruby/rdoc"
-SRC_URI="https://github.com/ruby/rdoc/tarball/cf09b2ebb8cbf6aa8d77b00c705ae20a96e3b482 -> rdoc-6.8.0-cf09b2e.tar.gz"
+SRC_URI="https://github.com/ruby/rdoc/tarball/9a7ab17f401cb92aa33ac903dc614d437e91e5e3 -> rdoc-6.8.1-9a7ab17.tar.gz"
 
 KEYWORDS="*"
 LICENSE="Ruby MIT"
