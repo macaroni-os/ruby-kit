@@ -73,7 +73,7 @@ PDEPEND="
 
 
 src_prepare() {
-	sed -i -e "s|Gem.default_dir|ENV['GEM_DESTDIR']|g" tool/rbinstall.rb || die
+	eapply "${REPODIR}/dev-lang"/files/"${SLOT}"/010-default-gem-location.patch
 
 	einfo "Unbundling gems..."
 	cd "$S"
