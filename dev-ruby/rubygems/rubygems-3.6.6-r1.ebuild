@@ -39,7 +39,7 @@ all_ruby_prepare() {
 	sed -i -e '/automatiek/ s:^:#:' -e '/Automatiek/,/^end/ s:^:#:' Rakefile || die
 
 	mkdir -p lib/rubygems/defaults || die
-	cp "${FILESDIR}/gentoo-defaults-5.rb" lib/rubygems/defaults/operating_system.rb || die
+	cp "${REPODIR}/dev-ruby/files/${PN}/gentoo-defaults-5.rb" lib/rubygems/defaults/operating_system.rb || die
 
 	eprefixify lib/rubygems/defaults/operating_system.rb
 
@@ -99,8 +99,8 @@ all_ruby_install() {
 	dodoc CHANGELOG.md README.md
 
 	if use server; then
-		newinitd "${FILESDIR}/init.d-gem_server2" gem_server
-		newconfd "${FILESDIR}/conf.d-gem_server" gem_server
+		newinitd "${REPODIR}/dev-ruby/files/${PN}/init.d-gem_server2" gem_server
+		newconfd "${REPODIR}/dev-ruby/files/${PN}/conf.d-gem_server" gem_server
 	fi
 }
 
