@@ -250,3 +250,5 @@ pkg_postinst() {
 pkg_postrm() {
 	eselect ruby cleanup
 }
+
+# vim: filetype=ebuild
